@@ -1,0 +1,3 @@
+# ADB
+persist.sys.usb.config=adb
+sys.usb.configfs=0
