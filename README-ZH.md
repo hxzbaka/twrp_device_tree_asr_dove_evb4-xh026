@@ -4,7 +4,7 @@
 
 ## 下载
 
-点[这里](https://github.com/hxzbaka/Action-TWRP-Builder/releases)，然后搜`CP23NV3`就能找到你的设备了。
+点[这里](https://github.com/hxzbaka/Action-TWRP-Builder/releases)，然后搜`dove_evb4`就能找到你的设备了。
 
 如果发现搜到了很多个Releases，请下载最新发布的版本，因为那通常是我修过BUG并进行了适配的完善版本（至少比以前的版本完善）
 
