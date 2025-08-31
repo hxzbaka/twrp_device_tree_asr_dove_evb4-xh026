@@ -17,7 +17,7 @@ $(call inherit-product, vendor/twrp/config/common.mk)
 $(call inherit-product, device/asr/dove_evb4/device.mk)
 
 PRODUCT_DEVICE := dove_evb4
-PRODUCT_NAME := dove_evb4
+PRODUCT_NAME := twrp_dove_evb4
 PRODUCT_BRAND := ASR
 PRODUCT_MODEL := ASR8601
 PRODUCT_MANUFACTURER := asr
