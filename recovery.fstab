@@ -22,21 +22,21 @@ auto                    auto      /devices/platform/soc/d4200000.axi/d4280000.sd
 /metadata               f2fs      /dev/block/platform/soc/d4200000.axi/d4281000.sdh/by-name/metadata     flags=display=metadata
 # ASR BSP Partitions
 # A/B
-/spl_ota                   emmc      /dev/block/bootdevice/by-name/spl_ota                                    flags=display=spl_ota;slotselect
-/sloader                   emmc      /dev/block/bootdevice/by-name/sloader                                    flags=display=sloader;slotselect
-/secureos                   emmc      /dev/block/bootdevice/by-name/secureos                                    flags=display=secureos;slotselect
-/sloader                   emmc      /dev/block/bootdevice/by-name/uboot                                    flags=display=uboot;slotselect
-/modem                   emmc      /dev/block/bootdevice/by-name/modem                                    flags=display=modem;slotselect
-/dtbo                   emmc      /dev/block/bootdevice/by-name/dtbo                                    flags=display=dtbo;slotselect
-/vbmeta                   emmc      /dev/block/bootdevice/by-name/vbmeta                                    flags=display=vbmeta;slotselect
-/vbmeta_system                   emmc      /dev/block/bootdevice/by-name/vbmeta_system                                    flags=display=vbmeta_system;slotselect
+/spl_ota                emmc      /dev/block/bootdevice/by-name/spl_ota                                    flags=display=spl_ota;slotselect
+/sloader                emmc      /dev/block/bootdevice/by-name/sloader                                    flags=display=sloader;slotselect
+/secureos               emmc      /dev/block/bootdevice/by-name/secureos                                   flags=display=secureos;slotselect
+/sloader                emmc      /dev/block/bootdevice/by-name/uboot                                      flags=display=uboot;slotselect
+/modem                  emmc      /dev/block/bootdevice/by-name/modem                                      flags=display=modem;slotselect
+/dtbo                   emmc      /dev/block/bootdevice/by-name/dtbo                                       flags=display=dtbo;slotselect
+/vbmeta                 emmc      /dev/block/bootdevice/by-name/vbmeta                                     flags=display=vbmeta;slotselect
+/vbmeta_system          emmc      /dev/block/bootdevice/by-name/vbmeta_system                              flags=display=vbmeta_system;slotselect
 # A
-/custom_ex                   emmc      /dev/block/bootdevice/by-name/customconfig_ex                                    flags=display=customconfig_ex
-/cmrdata                   emmc      /dev/block/bootdevice/by-name/cmrdata                                    flags=display=cmrdata
-/tzdata                   emmc      /dev/block/bootdevice/by-name/tzdata                                    flags=display=tzdata
-/sgtc                   emmc      /dev/block/bootdevice/by-name/sgtc                                    flags=display=sgtc
-/lockpin                   emmc      /dev/block/bootdevice/by-name/lockpin                                    flags=display=lockpin
+/custom_ex              emmc      /dev/block/bootdevice/by-name/customconfig_ex                            flags=display=customconfig_ex
+/cmrdata                emmc      /dev/block/bootdevice/by-name/cmrdata                                    flags=display=cmrdata
+/tzdata                 emmc      /dev/block/bootdevice/by-name/tzdata                                     flags=display=tzdata
+/sgtc                   emmc      /dev/block/bootdevice/by-name/sgtc                                       flags=display=sgtc
+/lockpin                emmc      /dev/block/bootdevice/by-name/lockpin                                    flags=display=lockpin
 # EMMC BOOT0/1
 # Kernel not supported
-# /epl                    emmc      /dev/block/mmcblk0boot0                                    flags=display=epl
-# /spl                    emmc      /dev/block/mmcblk0boot1                                    flags=display=spl
+# /epl                  emmc      /dev/block/mmcblk0boot0                                                  flags=display=epl
+# /spl                  emmc      /dev/block/mmcblk0boot1                                                  flags=display=spl
