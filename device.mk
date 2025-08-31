@@ -22,14 +22,14 @@ PRODUCT_PACKAGES += \
     android.hardware.boot@1.0-impl \
     android.hardware.boot@1.0-service
 
-PRODUCT_PACKAGES += \
-    bootctrl.dove
+# PRODUCT_PACKAGES += \
+#     bootctrl.dove
 
-PRODUCT_STATIC_BOOT_CONTROL_HAL := \
-    bootctrl.dove \
-    libgptutils \
-    libz \
-    libcutils
+# PRODUCT_STATIC_BOOT_CONTROL_HAL := \
+#     bootctrl.dove \
+#     libgptutils \
+#     libz \
+#     libcutils
 
 PRODUCT_PACKAGES += \
     otapreopt_script \
